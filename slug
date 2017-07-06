@@ -4,7 +4,7 @@
 use Symfony\Component\Console\Application;
 
 // load
-require_once __DIR__ . '/classes/bootstrap.php';
+require_once __DIR__ . '/bootstrap/autoload.php';
 
 // new
 $application = new Application();
