@@ -1,0 +1,38 @@
+{
+    "name": "slugphp/slugphp",
+    "type": "project",
+    "description": "学习项目",
+    "authors": [
+        {
+            "name": "wangwl",
+            "email": "wilonx@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "^5.4",
+        "illuminate/database": "^5.2",
+        "illuminate/events": "^5.2",
+        "phpFastCache/phpFastCache": "^6.0",
+        "wilon/simple-php-debug": "^0.1",
+        "symfony/console": "^3.2",
+        "vlucas/phpdotenv": "^2.4",
+        "robmorgan/phinx": "^0.8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LDAPAdmin\\": "classes/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://git.ifengidc.com/wangwl/ifeng-libsso.git"
+        }
+    ],
+    "support": {
+        "issues": "http://noah.ifeng.com/",
+        "source": "http://noah.ifeng.com/",
+        "docs": "http://noah.ifeng.com/"
+    }
+}
