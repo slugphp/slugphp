@@ -4,7 +4,7 @@
     "description": "学习项目",
     "authors": [
         {
-            "name": "wangwl",
+            "name": "Weilong Wang",
             "email": "wilonx@163.com"
         }
     ],
@@ -18,21 +18,5 @@
         "symfony/console": "^3.2",
         "vlucas/phpdotenv": "^2.4",
         "robmorgan/phinx": "^0.8.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "LDAPAdmin\\": "classes/"
-        }
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://git.ifengidc.com/wangwl/ifeng-libsso.git"
-        }
-    ],
-    "support": {
-        "issues": "http://noah.ifeng.com/",
-        "source": "http://noah.ifeng.com/",
-        "docs": "http://noah.ifeng.com/"
     }
 }
